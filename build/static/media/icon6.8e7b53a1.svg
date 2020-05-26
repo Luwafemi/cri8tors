@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116" height="116" viewBox="0 0 116 116">
+  <defs>
+    <path id="path-1" fill-rule="evenodd" d="M20 7h66c5.51915024 0 10 4.48084976 10 10v66c0 5.51915024-4.48084976 10-10 10H20c-5.51915024 0-10-4.48084976-10-10V17c0-5.51915024 4.48084976-10 10-10z"/>
+    <filter id="filter-2" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="8" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="9.036"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.12 0"/>
+    </filter>
+    <path id="path-3" fill-rule="evenodd" d="M74.05377197 38.90820313c-.2769165-.16357422-.6192627-.16992188-.90179443-.01660157l-9.86602783 5.36816407V41.0390625c-.00286866-2.50585938-2.04052735-4.53613281-4.55511475-4.5390625H36.05511475c-2.5145874.00292969-4.5522461 2.03320313-4.55511475 4.5390625v17.921875c.00286865 2.50585938 2.04052734 4.53613281 4.55511475 4.5390625h22.67572021c2.5145874-.00292969 4.5522461-2.03320313 4.55511475-4.5390625v-3.16259766l9.86639404 5.36816407c.28216553.15380859.62487793.14746093.90142822-.015625.27685547-.1640625.44622803-.4609375.44622803-.78125V39.68847656c0-.3203125-.16973877-.61669922-.44622803-.78027343zM61.4631958 58.9609375c-.0014038 1.50390625-1.22418213 2.72167969-2.73303223 2.72363281H36.05505371c-1.5088501-.00195312-2.7312622-1.21972656-2.73303223-2.72363281v-17.921875c.00177002-1.50341797 1.22418213-2.72167969 2.73303223-2.72363281h22.67578125c1.50854492.00195312 2.7312622 1.22021484 2.73309326 2.72363281l-.00073242 17.921875zm1.8227539-5.23095703l9.39202882 5.10986328V41.21875l-9.39202881 5.109375v7.40185547z"/>
+  </defs>
+  <g>
+    <g>
+      <use fill="black" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-2)" xlink:href="#path-1"/>
+      <use fill="rgb(62,135,168)" xlink:href="#path-1"/>
+    </g>
+    <g>
+      <use fill="rgb(255,255,255)" xlink:href="#path-3"/>
+      <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" xlink:href="#path-3"/>
+    </g>
+  </g>
+</svg>
