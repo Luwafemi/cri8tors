@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fff4933df38166a7c21fa678d055089",
-    "url": "./index.html"
+    "revision": "99b7493752f84add94cd5cef9b52ff6d",
+    "url": "/index.html"
   },
   {
     "revision": "46132de1691015829788",
     "url": "/static/css/2.74189dbb.chunk.css"
   },
   {
-    "revision": "5a1033304962d002d099",
+    "revision": "87a11a18fa83498add36",
     "url": "/static/css/main.433c7729.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a75259ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a1033304962d002d099",
-    "url": "/static/js/main.b2b6d7c7.chunk.js"
+    "revision": "87a11a18fa83498add36",
+    "url": "/static/js/main.0f801b11.chunk.js"
   },
   {
     "revision": "1249babb1f9002060aaf",
@@ -41,19 +41,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8f909cea296d8b5bd12a1a8210ef4f9c",
-    "url": "./static/media/content-writing-img2.8f909cea.png"
+    "url": "/static/media/content-writing-img2.8f909cea.png"
   },
   {
     "revision": "41b7ad88fdb8cfca9e45d234940e587f",
-    "url": "./static/media/creative.41b7ad88.png"
+    "url": "/static/media/creative.41b7ad88.png"
   },
   {
     "revision": "4e9d00a1b1504258cdb45aa7933130a0",
-    "url": "./static/media/graphics-img2.4e9d00a1.png"
+    "url": "/static/media/graphics-img2.4e9d00a1.png"
   },
   {
     "revision": "7b2edd46e51029e96ee41fe406b8a66d",
-    "url": "./static/media/icon2.7b2edd46.svg"
+    "url": "/static/media/icon2.7b2edd46.svg"
   },
   {
     "revision": "077e32ccb95bafc108d3de9cf04b77dc",
@@ -97,18 +97,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "dca0165c7b45e4e1d99839fd86c04993",
-    "url": "./static/media/talk-to-us.dca0165c.png"
+    "url": "/static/media/talk-to-us.dca0165c.png"
   },
   {
     "revision": "8fffc17f090c44691a90f8b9dcc418d4",
-    "url": "./build/static/media/video.8fffc17f.png"
+    "url": "/static/media/video.8fffc17f.png"
   },
   {
     "revision": "bee8a2aa81b8a0f5b172f6c56d326f2e",
-    "url": "./static/media/videoAnimation.bee8a2aa.png"
+    "url": "/static/media/videoAnimation.bee8a2aa.png"
   },
   {
     "revision": "327a202561f6de85b8aeaf7e5029cf63",
-    "url": "./static/media/web-dev-img2.327a2025.png"
+    "url": "/static/media/web-dev-img2.327a2025.png"
   }
 ]);
