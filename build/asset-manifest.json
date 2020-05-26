@@ -32,7 +32,7 @@
     "static/media/phone.svg": "/static/media/phone.709f55ca.svg",
     "static/media/social-media-img2.png": "/static/media/social-media-img2.f68e7236.png",
     "static/media/talk-to-us.png": "./build/static/media/talk-to-us.dca0165c.png",
-    "static/media/video.png": "/static/media/video.8fffc17f.png",
+    ".build/static/media/video.png": "./build/static/media/video.8fffc17f.png",
     "static/media/videoAnimation.png": "/static/media/videoAnimation.bee8a2aa.png",
     "static/media/web-dev-img2.png": "/static/media/web-dev-img2.327a2025.png"
   },
