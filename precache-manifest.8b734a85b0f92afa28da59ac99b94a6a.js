@@ -97,18 +97,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "dca0165c7b45e4e1d99839fd86c04993",
-    "url": "./static/media/talk-to-us.dca0165c.png"
+    "url": "./static/media/talk-to-us.dca0165c.PNG"
   },
   {
     "revision": "8fffc17f090c44691a90f8b9dcc418d4",
-    "url": "./static/media/video.8fffc17f.png"
+    "url": "./static/media/video.8fffc17f.PNG"
   },
   {
     "revision": "bee8a2aa81b8a0f5b172f6c56d326f2e",
-    "url": "./static/media/videoAnimation.bee8a2aa.png"
+    "url": "./static/media/videoAnimation.bee8a2aa.PNG"
   },
   {
     "revision": "327a202561f6de85b8aeaf7e5029cf63",
-    "url": "./static/media/web-dev-img2.327a2025.png"
+    "url": "./static/media/web-dev-img2.327a2025.PNG"
   }
 ]);
