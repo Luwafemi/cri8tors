@@ -33,8 +33,8 @@
     "static/media/social-media-img2.png": "./static/media/social-media-img2.f68e7236.png",
     "static/media/talk-to-us.png": "./static/media/talk-to-us.dca0165c.png",
     "./static/media/video.png": "./static/media/video.8fffc17f.png",
-    "./static/media/videoAnimation.png": "./static/media/videoAnimation.bee8a2aa.png",
-    "static/media/web-dev-img2.png": "./static/media/web-dev-img2.327a2025.png"
+    "./static/media/videoAnimation.png": "./static/media/videoAnimation.bee8a2aa.PNG",
+    "static/media/web-dev-img2.png": "./static/media/web-dev-img2.327a2025.PNG"
   },
   "entrypoints": [
     "./static/js/runtime-main.6a2302b0.js",
