@@ -101,11 +101,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8fffc17f090c44691a90f8b9dcc418d4",
-    "url": "/static/media/video.8fffc17f.png"
+    "url": "./static/media/video.8fffc17f.png"
   },
   {
     "revision": "bee8a2aa81b8a0f5b172f6c56d326f2e",
-    "url": "/static/media/videoAnimation.bee8a2aa.png"
+    "url": "./static/media/videoAnimation.bee8a2aa.png"
   },
   {
     "revision": "327a202561f6de85b8aeaf7e5029cf63",
