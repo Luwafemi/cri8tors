@@ -19,15 +19,14 @@ import videoAnimation from "./images/videoAnimation.png";
 import icon6 from "./images/icon6.svg";
 import pic4 from "./images/talk-to-us.png";
 import creative from "./images/creative.png";
-import mail from "./images/mail.svg";
-import address from "./images/address.svg";
-import phone from "./images/phone.svg";
+// import mail from "./images/mail.svg";
+// import address from "./images/address.svg";
+// import phone from "./images/phone.svg";
 import video from "./images/video.png";
 
 function App() {
   return (
     <React.Fragment>
-      {alert("Developed by 'Luwafemi A.")}
       <nav className="navbar navbar-light bg-dark fixed-top">
         <a href="#home">
           <img src={logo} alt="Cri8tors" />
@@ -47,7 +46,7 @@ function App() {
       <div
         className=" navvv collapse navbar-collapse "
         id="navbarSupportedContent"
-        style={{zIndex:2}}
+        style={{ zIndex: 2 }}
       >
         <ul className="navbar-nav float-right ml-auto text-right">
           <li className="nav-item">
@@ -121,7 +120,7 @@ function App() {
             class="btn btn-secondary"
             style={{
               backgroundColor: "white",
-              color: "rgb(44, 110, 231)",
+              color: "rgb(44, 110, 131)",
               width: 110,
               marginLeft: 200,
               fontSize: 13,
@@ -529,7 +528,7 @@ function App() {
       {/* .......................................................................... */}
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mailing-list">
             <br />
             <img style={{ marginBottom: 19 }} src={logo} alt="Cri8tors" />
             <div>Join our mailing list</div>
@@ -552,7 +551,7 @@ function App() {
               Submit
             </button>
             <br></br>
-            <div className=" social-icons social-icons2 ">
+            {/* <div className=" social-icons social-icons2 ">
               <svg
                 height="100%"
                 version="1.1"
@@ -587,13 +586,12 @@ function App() {
               >
                 <path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z" />
               </svg>
-            </div>
+            </div> */}
           </div>
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <div className="contact" style={{ display: "flex" }}>
               <img src={address} alt="address" />
               <span>
-                {" "}
                 1686 Oladele Olashore Street, off Sanusi fafunwa Street,
                 Victoria Island, Lagos.
               </span>
@@ -604,9 +602,9 @@ function App() {
             </div>
             <div className="contact" style={{ display: "flex" }}>
               <img src={phone} alt="phone" />
-              <span> 09083313366, 09083313367</span>
+              <span> 01234567890, 09876543210</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* ........................................................................... */}
