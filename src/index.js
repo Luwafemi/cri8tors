@@ -13,7 +13,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root"),
   function (e) {
-   
     $("#root").on("click", function (e) {
       var el = $(e.target);
       var loo = $(".menu");

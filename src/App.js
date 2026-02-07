@@ -1,13 +1,11 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-//  eslint-disable jsx-a11y/img-redundant-alt
 import React from "react";
 import "./App.css";
-import logo from "./logo copy.svg";
-import logo2 from "./menu-icon.svg";
-import pic1 from "./main-img.svg";
-import pic2 from "./bottom-line.svg";
-import pic3 from "./web-dev-img2.png";
-import icon1 from "./code-icon.svg";
+import logo from "./images/logo_copy.svg";
+import logo2 from "./images/menu-icon.svg";
+import pic1 from "./images/main-img.svg";
+import pic2 from "./images/bottom-line.svg";
+import pic3 from "./images/web-dev-img2.png";
+import icon1 from "./images/code-icon.svg";
 import wizardry from "./images/graphics-img2.png";
 import icon2 from "./images/icon2.svg";
 import icon3 from "./images/icon3.svg";
@@ -19,9 +17,6 @@ import videoAnimation from "./images/videoAnimation.png";
 import icon6 from "./images/icon6.svg";
 import pic4 from "./images/talk-to-us.png";
 import creative from "./images/creative.png";
-// import mail from "./images/mail.svg";
-// import address from "./images/address.svg";
-// import phone from "./images/phone.svg";
 import video from "./images/video.png";
 
 function App() {
@@ -69,7 +64,7 @@ function App() {
             </div>
 
             <a className="nav-link" href="#home">
-              Home <span class="sr-only">(current)</span>
+              Home <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
@@ -77,33 +72,33 @@ function App() {
               Web & App Development
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#graphicWizardry">
+          <li className="nav-item">
+            <a className="nav-link" href="#graphicWizardry">
               Graphic Wizardry
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contentWriting">
+          <li className="nav-item">
+            <a className="nav-link" href="#contentWriting">
               Content Writing
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#socialMedia">
+          <li className="nav-item">
+            <a className="nav-link" href="#socialMedia">
               Social Media Management
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#videoAnimation">
+          <li className="nav-item">
+            <a className="nav-link" href="#videoAnimation">
               Video Animation
             </a>
           </li>{" "}
-          <li class="nav-item">
-            <a class="nav-link" href="#videoAd">
+          <li className="nav-item">
+            <a className="nav-link" href="#videoAd">
               Video Ad Creation
             </a>
           </li>
           <button
-            class="btn btn-outline-secondary"
+            className="btn btn-outline-secondary"
             style={{
               borderColor: "white",
               color: "white",
@@ -117,7 +112,7 @@ function App() {
             Join us
           </button>
           <button
-            class="btn btn-secondary"
+            className="btn btn-secondary"
             style={{
               backgroundColor: "white",
               color: "rgb(44, 110, 131)",
@@ -154,11 +149,7 @@ function App() {
         <div className="row ">
           <div className="col-md-4">
             <section className="text-center section">
-              <img
-                src={pic1}
-                alt="image"
-                style={{ width: "90%", marginTop: 85 }}
-              />
+              <img src={pic1} alt="" style={{ width: "90%", marginTop: 85 }} />
             </section>
           </div>
           <div className="col-md-8">
@@ -166,30 +157,28 @@ function App() {
               style={{ fontSize: 32, margin: ["20px 40px"], fontWeight: 900 }}
               className="dreamText"
             >
-              <text>
-                Let us help make your{" "}
-                <div
-                  style={{
-                    color: "#023037",
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <span>dream</span>
-                  <img style={{ width: 120 }} src={pic2} alt="line" />
-                </div>
-                become your{" "}
-                <div
-                  style={{
-                    color: "#023037",
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <span>reality</span>
-                  <img style={{ width: 120 }} src={pic2} alt="line" />
-                </div>
-              </text>
+              Let us help make your{" "}
+              <div
+                style={{
+                  color: "#023037",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <span>dream</span>
+                <img style={{ width: 120 }} src={pic2} alt="line" />
+              </div>
+              become your{" "}
+              <div
+                style={{
+                  color: "#023037",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <span>reality</span>
+                <img style={{ width: 120 }} src={pic2} alt="line" />
+              </div>
             </div>
             <p className="m-4 dreamText2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
@@ -219,22 +208,22 @@ function App() {
               className="jumbotron"
               style={{ backgroundColor: "#09242f" }}
             >
-              <img src={pic3} alt="img" />
+              <img src={pic3} alt="" />
             </div>
           </div>
           <div className="col-md-8 col-lg-6">
             <div className="container text-center">
               <div className="contact" style={{ display: "flex" }}>
-                <img className="icons" src={icon1} alt="image" />
-                <h6 className="float-left ">
+                <img className="icons" src={icon1} alt="" />
+                <h6 className="float-left">
                   Website & Mobile App <br></br> Development
                 </h6>
               </div>
               <h6 style={{ fontSize: 14 }}>
                 Get that website designed, up and running in
               </h6>
-              <div className=" price" style={{ backgroundColor: "#09242f" }}>
-                7 days from N100,000
+              <div className="price" style={{ backgroundColor: "#09242f" }}>
+                7 days from $500
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -263,13 +252,13 @@ function App() {
               className="jumbotron"
               style={{ backgroundColor: "#24332b" }}
             >
-              <img src={wizardry} alt="image" />
+              <img src={wizardry} alt="" />
             </div>
           </div>
           <div className="col-md-8">
             <div className="container text-center">
               <div className="contact" style={{ display: "flex" }}>
-                <img className="icons" src={icon2} alt="image"></img>
+                <img className="icons" src={icon2} alt=""></img>
                 <h6 className="text-capitalize">Graphic Wizardry</h6>
               </div>
               <h6 style={{ fontSize: 14 }}>
@@ -279,7 +268,7 @@ function App() {
                 className="text-center price"
                 style={{ backgroundColor: "#24332b" }}
               >
-                3 days from N100,000
+                3 days from $200
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -307,13 +296,13 @@ function App() {
               className="jumbotron"
               style={{ backgroundColor: "#353323" }}
             >
-              <img src={contentWriting} alt="image" />
+              <img src={contentWriting} alt="" />
             </div>
           </div>
           <div className="col-md-8">
             <div className="container text-center">
               <div className="contact" style={{ display: "flex" }}>
-                <img className="icons" src={icon3} alt="image"></img>
+                <img className="icons" src={icon3} alt=""></img>
                 <h6 className="text-capitalize">Content Writing </h6>
               </div>
               <h6 style={{ fontSize: 14 }}>
@@ -323,7 +312,7 @@ function App() {
                 className="text-center price"
                 style={{ backgroundColor: "#353323" }}
               >
-                N40,000 per month
+                $1000 per month
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -351,13 +340,13 @@ function App() {
               className="jumbotron"
               style={{ backgroundColor: "#4b415e" }}
             >
-              <img src={socialMedia} alt="image" />
+              <img src={socialMedia} alt="" />
             </div>
           </div>
           <div className="col-md-8">
             <div className="container text-center">
               <div className="contact" style={{ display: "flex" }}>
-                <img className="icons" src={icon4} alt="image"></img>
+                <img className="icons" src={icon4} alt=""></img>
                 <h6>Social Media Management</h6>
               </div>
               <h6 style={{ fontSize: 14 }}>
@@ -367,7 +356,7 @@ function App() {
                 className="text-center price"
                 style={{ backgroundColor: "#4b415e" }}
               >
-                N150,000 per month
+                $1200 per month
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -395,14 +384,14 @@ function App() {
               className="jumbotron"
               style={{ backgroundColor: "#172f2e" }}
             >
-              <img src={videoAnimation} alt="image" />
+              <img src={videoAnimation} alt="" />
             </div>
           </div>
 
           <div className="col-md-8">
             <div className="container text-center videoAnimation">
               <div className="contact" style={{ display: "flex" }}>
-                <img className="icons" src={icon5} alt="image"></img>
+                <img className="icons" src={icon5} alt=""></img>
                 <h6>Video Animation</h6>
               </div>
               <h6 style={{ fontSize: 14 }}>
@@ -412,7 +401,7 @@ function App() {
                 className="text-center price"
                 style={{ backgroundColor: "#172f2e" }}
               >
-                4 days from N70,000
+                4 days from $500
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -436,15 +425,15 @@ function App() {
         <div className="row foo">
           <div className="col-md-4">
             <div id="videoAd" style={{ marginBottom: 15 }}>
-              <a href="#">
-                <img style={{ width: "100%" }} src={video} alt="video" />
-              </a>
+              {/* <a href="#videoAd"> */}
+              <img style={{ width: "100%" }} src={video} alt="video" />
+              {/* </a> */}
             </div>
           </div>
           <div className="col-md-8">
             <div className="container text-center">
               <div className="contact" style={{ display: "flex" }}>
-                <img className="icons" src={icon6} alt="image"></img>
+                <img className="icons" src={icon6} alt=""></img>
                 <h6>Video Ad Creation</h6>
               </div>
               <p>
@@ -473,13 +462,13 @@ function App() {
         className="container jumbotron text-center"
         style={{ backgroundColor: "#023037", marginBottom: 30 }}
       >
-        <img src={pic4} alt="image" />
+        <img src={pic4} alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
           expedita.
         </p>
         <button
-          class="btn btn-outline-secondary"
+          className="btn btn-outline-secondary"
           style={{
             backgroundColor: "white",
             color: "#023037",
@@ -495,10 +484,10 @@ function App() {
       {/* ........................................................................................ */}
       <div className="container-fluid">
         <div className="row">
-          <div class="col-md-4">
-            <img src={creative} alt="image" style={{ width: "100%" }} />
+          <div className="col-md-4">
+            <img src={creative} alt="" style={{ width: "100%" }} />
           </div>
-          <div class="col-md-8">
+          <div className="col-md-8">
             <div className="container text-center">
               <h4 style={{ color: "#b52626" }}> Are you a creative?</h4>
               <p>
@@ -609,7 +598,8 @@ function App() {
       </div>
       {/* ........................................................................... */}
       <footer className="text-center">
-        Copyright &copy; 2020 Cri8tors. All rights reserved.
+        Copyright &copy; {new Date().getFullYear()} Cri8tors. All rights
+        reserved.
       </footer>
     </React.Fragment>
   );
