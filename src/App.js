@@ -145,7 +145,7 @@ function App() {
         </ul>
       </div>
       {/* ....................................................................................................................... */}
-      <div id="home" className="container-fluid dream">
+      <div id="home" className="container-fluid dream mt-5">
         <div className="row ">
           <div className="col-md-4">
             <section className="text-center section">
@@ -487,7 +487,7 @@ function App() {
           <div className="col-md-4">
             <img src={creative} alt="" style={{ width: "100%" }} />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 mt-4 mt-md-0">
             <div className="container text-center">
               <h4 style={{ color: "#b52626" }}> Are you a creative?</h4>
               <p>
